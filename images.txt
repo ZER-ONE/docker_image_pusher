@@ -4,3 +4,4 @@ sonarqube:lts-community
 busybox
 openjdk:11
 postgres:13.16
+bitnami/prometheus:latest
