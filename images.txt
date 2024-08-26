@@ -7,4 +7,5 @@ postgres:13.16
 bitnami/prometheus:latest
 bitnami/node-exporter
 google/cadvisor:v0.33.0
+docker/binfmt
 
