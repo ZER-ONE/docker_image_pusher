@@ -8,4 +8,5 @@ bitnami/prometheus:latest
 bitnami/node-exporter
 google/cadvisor:v0.33.0
 docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
+moby/buildkit:buildx-stable-1
 
