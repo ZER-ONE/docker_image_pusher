@@ -9,4 +9,4 @@ bitnami/node-exporter
 google/cadvisor:v0.33.0
 docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
 zeroneluo/nginxarm:1.0
-arm64v8/openjdk:24-jdk-oraclelinux8 --platform=linux/arm/v8
+arm64v8/openjdk:24-jdk-oraclelinux8 --platform=linux/arm64
