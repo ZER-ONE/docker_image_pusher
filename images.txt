@@ -4,7 +4,6 @@ busybox
 openjdk:11
 nginx:latest
 tomcat:latest
-nginx:stable-perl --platform=linux/arm64
 
 # ops
 sonarqube:lts-community
