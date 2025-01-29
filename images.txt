@@ -11,15 +11,17 @@ bitnami/prometheus:latest
 bitnami/node-exporter
 google/cadvisor:v0.33.0
 docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
-jenkins
+jenkins/jenkins:latest
+apisix:latest
 
 
 # 数据库
 mysql:latest
 postgres:13.16
-redis:latest
 mariadb:latest
 mongo:latest
 
+
 # nas
-zerotier/zerotier-containerized
+zerotier/zerotier:latest
+acme.sh:latest
