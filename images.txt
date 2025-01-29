@@ -5,6 +5,8 @@ openjdk:11
 nginx:latest
 tomcat:latest
 
+
+
 # ops
 sonarqube:lts-community
 bitnami/prometheus:latest
@@ -12,7 +14,10 @@ bitnami/node-exporter
 google/cadvisor:v0.33.0
 docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
 jenkins/jenkins:latest
-apisix:latest
+apache/apisix:latest
+elasticsearch:latest
+rabbitmq:latest
+alpine:latest
 
 
 # 数据库
@@ -24,4 +29,11 @@ mongo:latest
 
 # nas
 zerotier/zerotier:latest
-acme.sh:latest
+neilpang/acme.sh:latest
+jellyfin/jellyfin:latest
+nextcloud:latest
+sanjusss/aliyun-ddns:latest
+19970688/nastools-bt:latest
+linuxserver/qbittorrent:latest
+xhofe/alist:latest
+halcyonazure/lsky-pro-docker:latest
