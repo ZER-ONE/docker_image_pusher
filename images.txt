@@ -51,3 +51,4 @@ sanjusss/aliyun-ddns:latest
 linuxserver/qbittorrent:latest
 xhofe/alist:latest
 halcyonazure/lsky-pro-docker:latest
+netdata/netdata:latest
