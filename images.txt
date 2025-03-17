@@ -16,8 +16,8 @@ docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
 jenkins/jenkins:latest
 apache/apisix:latest
 elasticsearch:8.17.3
-kibana
-logstash
+kibana:8.17.3
+logstash:8.17.3
 
 # k8s
 coreos/flannel
