@@ -20,18 +20,16 @@ kibana:8.17.3
 logstash:8.17.3
 
 # k8s
-coreos/flannel
-csiaddons/k8s-sidecar
+flannel/flannel
 prometheus/prometheus
 prometheus/alertmanager
 prometheus/pushgateway
 prometheus/blackbox-exporter
 prometheus/node-exporter
-brancz/kube-rbac-proxy
 etcd
 kube-proxy
 kube-apiserver
-ingress-nginx/controller
+nginx/nginx-ingress
 
 # 数据库
 mysql:latest
