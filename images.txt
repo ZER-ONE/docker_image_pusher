@@ -1,37 +1,59 @@
-#支持私库
 # base component
 busybox
 openjdk:11
-nginx:latest
 tomcat:latest
+rabbitmq:latest
+fail2ban
+bitnami/kafka:latest
 
+
+# 代理-proxy
+nginx:latest
+haproxy:latest
+traefik:latest
 
 
 # ops
+zabbix-agent
+gitlab/gitlab-ce
 sonarqube:lts-community
-bitnami/prometheus:latest
-bitnami/node-exporter
-google/cadvisor:v0.33.0
 docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
 jenkins/jenkins:latest
 apache/apisix:latest
 elasticsearch:8.17.3
 kibana:8.17.3
 logstash:8.17.3
+zookeeper:latest
 
 # k8s
+
+rancher/rancher
+rancher/rancher-agent
+rancher/pause
+rancher/kubelet
+rancher/kubectl
+bitnami/etcd
+dyrnq/kube-apiserver
+dyrnq/kube-proxy:v1.23.9
+dyrnq/kube-controller-manager
+dyrnq/kube-scheduler
+bitnami/kube-state-metrics
+bitnami/grafana
 flannel/flannel
-prometheus/prometheus
-prometheus/alertmanager
-prometheus/pushgateway
-prometheus/blackbox-exporter
-prometheus/node-exporter
-etcd
-kube-proxy
-kube-apiserver
 nginx/nginx-ingress
+rook/ceph
+minio/minio
+
+google/cadvisor:v0.33.0
+bitnami/prometheus
+bitnami/alertmanager
+bitnami/pushgateway
+bitnami/blackbox-exporter
+bitnami/node-exporter
+bitnami/grafana-agent
 
 # 数据库
+bitnami/redis:latest
 mysql:latest
 postgres:13.16
 mariadb:latest
@@ -40,13 +62,20 @@ rabbitmq:latest
 alpine:latest
 
 # nas
+ddns:latest
+linuxserver/transmission:latest
+linuxserver/qbittorrent:latest
+linuxserver/emby:latest
+linuxserver/homeassistant:latest
 zerotier/zerotier:latest
 neilpang/acme.sh:latest
 jellyfin/jellyfin:latest
 nextcloud:latest
 sanjusss/aliyun-ddns:latest
 19970688/nastools-bt:latest
-linuxserver/qbittorrent:latest
 xhofe/alist:latest
 halcyonazure/lsky-pro-docker:latest
 netdata/netdata:latest
+sanjusss/aliyun-ddns:latest
+tinymediamanager/tinymediamanager:latest
+zerotier/zerotier-synology:latest
