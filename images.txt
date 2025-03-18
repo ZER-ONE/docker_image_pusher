@@ -3,7 +3,7 @@ busybox
 openjdk:11
 tomcat:latest
 rabbitmq:latest
-fail2ban
+linuxserver/fail2ban
 bitnami/kafka:latest
 
 
@@ -14,9 +14,11 @@ traefik:latest
 
 
 # ops
-zabbix-agent
+zabbix/zabbix-agent
+zabbix/zabbix-server-mysql
+zabbix/zabbix-web-nginx-mysql
+zabbix/zabbix-agent2
 gitlab/gitlab-ce
-sonarqube:lts-community
 docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
 jenkins/jenkins:latest
 apache/apisix:latest
@@ -26,7 +28,6 @@ logstash:8.17.3
 zookeeper:latest
 
 # k8s
-
 rancher/rancher
 rancher/rancher-agent
 rancher/pause
@@ -57,9 +58,8 @@ bitnami/redis:latest
 mysql:latest
 postgres:13.16
 mariadb:latest
-mongo:latest
-rabbitmq:latest
 alpine:latest
+rabbitmq:latest
 
 # nas
 ddns:latest
