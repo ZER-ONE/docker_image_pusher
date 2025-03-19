@@ -33,14 +33,14 @@ rancher/rancher-agent:head
 rancher/pause:3.6
 bitnami/kubectl:latest
 bitnami/etcd:latest
-dyrnq/kube-apiserver
-dyrnq/kube-proxy:v1.23.9
-dyrnq/kube-controller-manager
-dyrnq/kube-scheduler
-bitnami/kube-state-metrics
-bitnami/grafana
+#dyrnq/kube-apiserver
+#dyrnq/kube-proxy:v1.23.9
+#dyrnq/kube-controller-manager
+#dyrnq/kube-scheduler
+bitnami/kube-state-metrics:latest
+bitnami/grafana:latest
 flannel/flannel
-nginx/nginx-ingress
+nginx/nginx-ingress:latest
 rook/ceph
 minio/minio
 
