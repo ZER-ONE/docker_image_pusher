@@ -50,7 +50,7 @@ bitnami/alertmanager:latest
 bitnami/pushgateway:latest
 bitnami/blackbox-exporter:latest
 bitnami/node-exporter:latest
-bitnami/grafana-agent:latest
+#bitnami/grafana-agent:latest
 
 # 数据库
 bitnami/redis:latest
