@@ -14,11 +14,11 @@ traefik:latest
 
 
 # ops
-zabbix/zabbix-agent
+zabbix/zabbix-agent:sha256-f2e9db89dbe2d37c5db1122ba7ed541987677782d3b6e8edf466bf728c95f5c5
 zabbix/zabbix-server-mysql
 zabbix/zabbix-web-nginx-mysql
 zabbix/zabbix-agent2
-gitlab/gitlab-ce
+gitlab/gitlab-ce:latest
 docker/binfmt:a7996909642ee92942dcd6cff44b9b95f08dad64
 jenkins/jenkins:latest
 apache/apisix:latest
@@ -28,12 +28,11 @@ logstash:8.17.3
 zookeeper:latest
 
 # k8s
-rancher/rancher
-rancher/rancher-agent
-rancher/pause
-rancher/kubelet
-rancher/kubectl
-bitnami/etcd
+rancher/rancher:head
+rancher/rancher-agent:head
+rancher/pause:3.6
+bitnami/kubectl:latest
+bitnami/etcd:latest
 dyrnq/kube-apiserver
 dyrnq/kube-proxy:v1.23.9
 dyrnq/kube-controller-manager
@@ -46,12 +45,12 @@ rook/ceph
 minio/minio
 
 google/cadvisor:v0.33.0
-bitnami/prometheus
-bitnami/alertmanager
-bitnami/pushgateway
-bitnami/blackbox-exporter
-bitnami/node-exporter
-bitnami/grafana-agent
+bitnami/prometheus:latest
+bitnami/alertmanager:latest
+bitnami/pushgateway:latest
+bitnami/blackbox-exporter:latest
+bitnami/node-exporter:latest
+bitnami/grafana-agent:latest
 
 # 数据库
 bitnami/redis:latest
