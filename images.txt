@@ -61,7 +61,6 @@ alpine:latest
 rabbitmq:latest
 
 # nas
-ddns:latest
 linuxserver/transmission:latest
 linuxserver/qbittorrent:latest
 linuxserver/emby:latest
