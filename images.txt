@@ -41,8 +41,8 @@ bitnami/kube-state-metrics:latest
 bitnami/grafana:latest
 flannel/flannel
 nginx/nginx-ingress:latest
-rook/ceph
-minio/minio
+rook/ceph:v1.16.0.359.gdd6cd626f
+minio/minio:latest
 
 google/cadvisor:v0.33.0
 bitnami/prometheus:latest
