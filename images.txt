@@ -6,6 +6,8 @@ rabbitmq:latest
 linuxserver/fail2ban
 bitnami/kafka:latest
 python:3.9-alpine
+centos:7
+
 
 # 代理-proxy
 nginx:latest
