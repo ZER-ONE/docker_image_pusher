@@ -1,6 +1,5 @@
 # base component
 busybox
-openjdk:11
 tomcat:latest
 rabbitmq:latest
 linuxserver/fail2ban
