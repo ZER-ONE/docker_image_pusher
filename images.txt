@@ -29,7 +29,7 @@ kibana:8.17.3
 logstash:8.17.3
 zookeeper:latest
 feiyu563/prometheus-alert:latest
-
+joeelliott/cert-exporter:master
 
 # k8s
 rancher/rancher:head
@@ -81,3 +81,4 @@ netdata/netdata:latest
 sanjusss/aliyun-ddns:latest
 tinymediamanager/tinymediamanager:latest
 zerotier/zerotier-synology:latest
+nastools/nas-tools:2.9.1
